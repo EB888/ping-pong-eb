@@ -6,11 +6,17 @@ $(document).ready(function(){
     event.preventDefault();
     while  (i <= userInput){
       if (i % 15 === 0){
-        console.log(i)
+        // console.log("Divisible by 15")
         $("ul#output").append("<li>" + "Ping-Pong" + "</li>");
         i++
+      }else if(i % 5 === 0){
+        $("ul#output").append("<li>" + "Pong" + "</li>");
+        i++
+      }else if(i % 3 === 0){
+        $("ul#output").append("<li>" + "Ping" + "</li>");
+        i++
       }else{
-        console.log(i)
+        // console.log(i)
         $("ul#output").append("<li>" + i + "</li>");
         i++
       }
