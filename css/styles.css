@@ -1,0 +1,37 @@
+/*OVERALL STYLING*/
+body{
+  background-color: black;
+  text-shadow: 3px 3px #660066;
+  color:#0f0;
+}
+/*HEADER STYLING*/
+.header{
+  /*background-color:black;*/
+  /*color:#0f0;*/
+  /*margin-bottom: 100px;*/
+  padding-bottom: 100px;
+  /*background-image: url(../img/geo1.jpeg); */
+  background-size: cover;
+}
+/*MAINBODY STYLING*/
+.mainbody{
+  /*background-color:black;
+  color:#0f0;*/
+}
+/*SIDECOLUMN STYLING*/
+.sidecolumn a{
+  color:#0f0;
+}
+.sidecolumn h2{
+  /*text-shadow: 3px 3px #660066;
+  color:#0f0;*/
+}
+.sidecolumn p{
+  /*text-shadow: 3px 3px #660066;
+  color:#0f0;*/
+}
+.btn, .form-control{
+  background-color: grey;
+  text-shadow: 1px 1px #660066;
+  color:#0f0;
+}

@@ -11,7 +11,7 @@ If a number in the range displayed is divisible by 3, it will be replaced by "pi
 If a number in the range displayed is divisible by 5, it will be replaced by "pong"
 If a number in the range displayed is divisible by 15, it will be replaced by "ping-pong"
 
-## Specs
+## Specifications
 * 1 Take a number and display it to the user
   * _Example:   Input:| 5 | Output:| 5 |_
 * 2 Take a number from the user, and display a range from 1 to the chosen number to the user
