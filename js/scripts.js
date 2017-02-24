@@ -1,10 +1,8 @@
 $(document).ready(function(){
   var userInput = parseInt($("#pingpong").val());
-  var i = 1
-
-  $("#pingpongForm").submit(function(event){
-    event.preventDefault();
-    while  (i <= userInput){
+  var pingPong = function(input){
+    var i = 1;
+    while  (i <= input){
       if (i % 15 === 0){
         // console.log("Divisible by 15")
         $("ul#output").append("<li>" + "Ping-Pong" + "</li>");
@@ -21,5 +19,9 @@ $(document).ready(function(){
         i++
       }
     }
-  })
-})
+  }
+  $("#pingpongForm").submit(function(event){
+    event.preventDefault();
+    pingPong(userInput);
+  });
+});
