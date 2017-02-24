@@ -5,12 +5,15 @@ $(document).ready(function(){
   $("#pingpongForm").submit(function(event){
     event.preventDefault();
     while  (i <= userInput){
-      if (i / 15 === 0){
+      if (i % 15 === 0){
+        console.log(i)
         $("ul#output").append("<li>" + "Ping-Pong" + "</li>");
+        i++
+      }else{
+        console.log(i)
+        $("ul#output").append("<li>" + i + "</li>");
+        i++
       }
-      console.log(i)
-      $("ul#output").append("<li>" + i + "</li>");
-      i++
     }
   })
 })
