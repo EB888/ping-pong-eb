@@ -8,10 +8,10 @@
 
 ## Description
 
-Enter a number and receive a range from 1 to your chosen number
-If a number in the range displayed is divisible by 3, it will be replaced by "ping"
-If a number in the range displayed is divisible by 5, it will be replaced by "pong"
-If a number in the range displayed is divisible by 15, it will be replaced by "ping-pong"
+* Enter a number and receive a range from 1 to your chosen number.
+* If a number in the range displayed is divisible by 3, it will be replaced by "ping".
+* If a number in the range displayed is divisible by 5, it will be replaced by "pong".
+* If a number in the range displayed is divisible by 15, it will be replaced by "ping-pong".
 
 ## Specifications
 <!-- * 1 Take a number and display it to the user
