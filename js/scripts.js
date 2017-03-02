@@ -1,36 +1,29 @@
-// BACKEND LOGIC
+// BACK OF HOUSE
 function pingPong(input){
   var ping = "Ping";
   var pong = "Pong";
   var pingPongVar = "Ping-Pong";
   var pingPongArray =[]
   var i = 1;
-
   while  (i <= input){
     if (i % 15 === 0){
       pingPongArray.push(pingPongVar);
-      // $("ul#outputul").append("<li>" + pingPong + "</li>");
       i++
     }else if(i % 5 === 0){
       pingPongArray.push(pong);
-      // $("ul#outputul").append("<li>" + Pong + "</li>");
       i++
     }else if(i % 3 === 0){
       pingPongArray.push(ping);
-      // $("ul#outputul").append("<li>" + Ping + "</li>");
       i++
     }else{
       pingPongArray.push(i);
-      // $("ul#outputul").append("<li>" + i + "</li>");
       i++
     }
   }
   return pingPongArray;
 }
 
-
-
-// FRONT END LOGIC
+// FRONT OF HOUSE
 $(document).ready(function(){
   $("#pingpongForm").submit(function(event){
     event.preventDefault();
