@@ -13,18 +13,11 @@
 * If a number in the range displayed is divisible by 5, it will be replaced by "pong".
 * If a number in the range displayed is divisible by 15, it will be replaced by "ping-pong".
 
+<img src="/img/pong1.png"/>
+<img src="/img/pong2.png"/>
+<img src="/img/pong3.png"/>
+
 ## Specifications
-<!-- * 1 Take a number and display it to the user
-  * Input:| 5 | Output:| 5 |
-* 2 Take a number from the user, and display a range from 1 to the chosen number to the user
-  * Input:| 5 | Output:| 1, 2, 3, 4, 5, |
-* 3 If a number in the range is divisible by 3, replace with "Ping"
-  * Input:| 5 | Output:| 1, 2, Ping, 4, 5, |
-* 4 If a number in the range is divisible by 5, replace with "Pong"
-  * Input:| 5 | Output:| 5 | 1, 2, Ping, 4, Pong |
-* 5 If a number in the range is divisible by 15, replace with "Ping-Pong"
-  * Input:| 15 | Output:| 1, 2, Ping, 4, Pong, Ping, 7, 8, Ping, Pong, 11, Ping, 13, 14, Ping-Pong, |
-* 6 Be able to enter a new number and see new results over and over -->
 
 | Behavior | Input Example  | Output Example  |
 |---|---|---|
